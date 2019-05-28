@@ -1,4 +1,4 @@
-FROM datastrophic/mesos:1.1.0
+FROM zulli73/mesos:1.8.0
 
 #Docker
 RUN apt-get update && apt-get install -y curl apt-transport-https ca-certificates lxc iptables apparmor && \

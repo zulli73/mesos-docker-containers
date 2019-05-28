@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ARG MESOS_VERSION=1.1.0-2.0.107.ubuntu1604
+ARG MESOS_VERSION=1.8.0-2.0.6.ubuntu1604
 
 RUN echo "deb http://repos.mesosphere.com/ubuntu xenial main" > /etc/apt/sources.list.d/mesosphere.list && \
   apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && \
